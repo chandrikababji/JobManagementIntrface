@@ -1,0 +1,65 @@
+.create-job-form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.create-job-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-job-form .form-group {
+  margin-bottom: 15px;
+}
+
+.create-job-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-job-form input,
+.create-job-form select,
+.create-job-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.create-job-form textarea {
+  height: 100px;
+}
+
+.create-job-form .salary-display {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.create-job-form button {
+  width: 48%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-job-form .save-draft {
+  background-color: #ffc107;
+}
+
+.create-job-form button:hover {
+  background-color: #218838;
+}
+
+.create-job-form .save-draft:hover {
+  background-color: #e0a800;
+}

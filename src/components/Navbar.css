@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px auto;
+  max-width: 850px;
+  position: relative;
+
+  
+}
+.home-button {
+    margin-left: 5px; /* Reduce the left margin if needed */
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:5px;
+  margin-top: -5px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.nav-links li:hover {
+  color: #9c27b0;
+}
+
+.create-job {
+  background-color: #9c27b0;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 999px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0px 4px 14px rgba(156, 39, 176, 0.3);
+  transition: background-color 0.3s ease;
+  margin-top: -8px;
+}
+
+.create-job:hover {
+  background-color: #7b1fa2;
+}

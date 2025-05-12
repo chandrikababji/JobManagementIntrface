@@ -1,0 +1,70 @@
+.job-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding:10px;
+  box-shadow: 0 6px 18px (rgb(172,217,252));
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.posted-time {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #e0f0ff;
+  color: #007bff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.job-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.job-card p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.desc {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.apply-btn {
+  margin-top: auto;
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.apply-btn:hover {
+  background-color: #0077cc;
+}

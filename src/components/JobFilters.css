@@ -1,0 +1,73 @@
+.filter-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+/* Each input group with a separator after it */
+.input-group,
+.salary-range {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  padding-left: 15px;
+  position: relative;
+}
+
+/* Add vertical line between fields */
+.input-group:not(:first-child)::before,
+.salary-range::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 25px;
+  width: 1px;
+  background-color: #ccc;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon {
+  font-size: 16px;
+  color: #000;
+}
+
+/* Clean input look — no border, no underline */
+.underline-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+  width: 180px;
+}
+
+.select-input {
+  appearance: none;
+  background: transparent;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+/* Salary section */
+.salary-range {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  white-space: nowrap;
+}
+
+.salary-range input[type="range"] {
+  width: 100%;
+}
+
+.salary-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
