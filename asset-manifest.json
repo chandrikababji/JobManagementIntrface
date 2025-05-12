@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chandrikababji/JobManagementIntrface/static/css/main.2f3f9ed6.css",
-    "main.js": "/chandrikababji/JobManagementIntrface/static/js/main.bdfb2b5f.js",
-    "static/js/453.a5bd3543.chunk.js": "/chandrikababji/JobManagementIntrface/static/js/453.a5bd3543.chunk.js",
-    "index.html": "/chandrikababji/JobManagementIntrface/index.html",
-    "main.2f3f9ed6.css.map": "/chandrikababji/JobManagementIntrface/static/css/main.2f3f9ed6.css.map",
-    "main.bdfb2b5f.js.map": "/chandrikababji/JobManagementIntrface/static/js/main.bdfb2b5f.js.map",
-    "453.a5bd3543.chunk.js.map": "/chandrikababji/JobManagementIntrface/static/js/453.a5bd3543.chunk.js.map"
+    "main.css": "/JobManagementIntrface/static/css/main.2f3f9ed6.css",
+    "main.js": "/JobManagementIntrface/static/js/main.d8920d30.js",
+    "static/js/453.a5bd3543.chunk.js": "/JobManagementIntrface/static/js/453.a5bd3543.chunk.js",
+    "index.html": "/JobManagementIntrface/index.html",
+    "main.2f3f9ed6.css.map": "/JobManagementIntrface/static/css/main.2f3f9ed6.css.map",
+    "main.d8920d30.js.map": "/JobManagementIntrface/static/js/main.d8920d30.js.map",
+    "453.a5bd3543.chunk.js.map": "/JobManagementIntrface/static/js/453.a5bd3543.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f3f9ed6.css",
-    "static/js/main.bdfb2b5f.js"
+    "static/js/main.d8920d30.js"
   ]
 }
